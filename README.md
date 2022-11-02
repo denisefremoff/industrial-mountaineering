@@ -3,4 +3,4 @@
 - CSS 3
 - JavaScript
 
-Can you view [site](https://denisefremoff.github.io/industrial-mountaineering/)
+Can you view [site Industrial-mountaineering](https://denisefremoff.github.io/industrial-mountaineering/)
