@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Промышленный альпинизм</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Шапка страницы -->
+        <header class="header">
+            <div class="cube_logo">
+                <div class="cube">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22.52" height="22.52">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.8464 0.963013H8.58307e-06L6.67216 7.63517H22.5185L15.8464 0.963013ZM6.67215 7.63517V23.4815L0 16.8094V0.963017L6.67215 7.63517Z"
+                            fill="#CCCCCC"></path>
+                    </svg>
+                    <svg class="cube_black" xmlns="http://www.w3.org/2000/svg" width="22.52" height="22.52">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M6.67218 23.4814L22.5185 23.4814L15.8464 16.8093L2.28882e-05 16.8093L6.67218 23.4814ZM15.8464 16.8093L15.8464 0.962923L22.5186 7.63508L22.5186 23.4814L15.8464 16.8093Z"
+                            fill="black"></path>
+                    </svg>
+                </div>
+                <div class="logo">
+                    <a href="#">Логотип</a>
+                </div>
+            </div>
+            <div class="hamb">
+                <div class="hamb_box">
+                    <p>Меню</p>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <ul class="menu">
+                <li class="menu_item"><a href="#">О нас</a></li>
+                <li class="menu_item"><a href="#">Преимущества</a></li>
+                <li class="menu_item menu_item_after"><a href="#">Услуги</a></li>
+                <li class="menu_item"><a href="#">Прайс</a></li>
+                <li class="menu_item"><a href="#">отзывы</a></li>
+                <li class="menu_item"><a href="#">Контакты</a></li>
+            </ul>
+            <div class="popup"></div>
+            <div class="tel">
+                <a href="tel:#">
+                    <p>+7 (3532) 27-63-27</p>
+                </a>
+            </div>
+        </header>
+    </div>
+
+    <!-- Карусель -->
+    <section class="container">
+        <button class="button_prev"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="25" viewBox="0 0 15 27"
+                fill="none">
+                <path d="M14 26L2 13.5L14 1" stroke="black" stroke-width="2"></path>
+            </svg>
+        </button>
+        <div class="slider_wrapper">
+            <div class="slider_line">
+                <div class="slider">
+                    <img class="background" src="img/Rectangle36.svg" alt="background">
+                    <img src="img/Rectangle7.svg" alt="picture">
+                    <div class="text">
+                        <h2 class="description">Промышленный альпинизм в Оренбурге 1</h2>
+                        <h6 class="subtitle">Услуги квалифицированных специалистов</h6>
+                        <a class="button" href="#">Заказать услугу</a>
+                    </div>
+                </div>
+                <div class="slider">
+                    <img class="background" src="img/Rectangle36.svg" alt="background">
+                    <img src="img/Rectangle7.svg" alt="picture">
+                    <div class="text">
+                        <h2 class="description">Промышленный альпинизм в Оренбурге 2</h2>
+                        <h6 class="subtitle">Услуги квалифицированных специалистов</h6>
+                        <a class="button" href="#">Заказать услугу</a>
+                    </div>
+                </div>
+                <div class="slider">
+                    <img class="background" src="img/Rectangle36.svg" alt="background">
+                    <img src="img/Rectangle7.svg" alt="picture">
+                    <div class="text">
+                        <h2 class="description">Промышленный альпинизм в Оренбурге 3</h2>
+                        <h6 class="subtitle">Услуги квалифицированных специалистов</h6>
+                        <a class="button" href="#">Заказать услугу</a>
+                    </div>
+                </div>
+                <div class="slider">
+                    <img class="background" src="img/Rectangle36.svg" alt="background">
+                    <img src="img/Rectangle7.svg" alt="picture">
+                    <div class="text">
+                        <h2 class="description">Промышленный альпинизм в Оренбурге 4</h2>
+                        <h6 class="subtitle">Услуги квалифицированных специалистов</h6>
+                        <a class="button" href="#">Заказать услугу</a>
+                    </div>
+                </div>
+                <div class="slider">
+                    <img class="background" src="img/Rectangle36.svg" alt="background">
+                    <img src="img/Rectangle7.svg" alt="picture">
+                    <div class="text">
+                        <h2 class="description">Промышленный альпинизм в Оренбурге 5</h2>
+                        <h6 class="subtitle">Услуги квалифицированных специалистов</h6>
+                        <a class="button" href="#">Заказать услугу</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="button_next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="25" viewBox="0 0 15 27" fill="none">
+                <path d="M1 26L13 13.5L0.999999 1" stroke="black" stroke-width="2"></path>
+            </svg>
+        </button>
+        <div class="dots_wrapper">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </section>
+    <div class="wrapper">
+
+        <!-- Преимущества  -->
+        <section class="advantages">
+            <div class="experience">
+                <div class="experience_picture">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="50" viewBox="0 0 46 50" fill="none">
+                        <path
+                            d="M46.0004 0H9.93487V31.1615C9.84042 31.1591 9.74797 31.1475 9.65391 31.1475C7.52028 31.1475 5.47511 31.8031 3.73971 33.0426L0.442207 35.3984L1.39476 36.732L4.69225 34.3762C7.09484 32.6608 10.3055 32.3138 13.0158 33.4761L15.2227 34.4222C16.4971 34.9689 17.8454 35.2459 19.2322 35.2459H23.0496C23.9537 35.2459 24.689 35.9811 24.689 36.8852C24.689 37.7894 23.9537 38.5246 23.0496 38.5246H9.1152V40.1639H23.0496C24.8579 40.1639 26.3283 38.6935 26.3283 36.8852H35.0053L30.6088 41.2818C29.2152 42.6746 27.3629 43.4426 25.3922 43.4426H9.2833C7.39221 43.4426 5.57997 44.023 4.04228 45.122L0.441406 47.6943L1.39395 49.0278L4.99483 46.4556C6.25355 45.5566 7.73561 45.082 9.2833 45.082H25.3914C27.7996 45.082 30.0645 44.1434 31.7666 42.4408L36.7143 37.4936C36.8996 37.3091 37.0561 37.1026 37.197 36.8852H46.0004V0ZM44.3611 1.63934V6.55738H11.5742V1.63934H44.3611ZM25.8725 35.2459C25.3037 34.2705 24.2579 33.6066 23.0496 33.6066H19.2322C18.0692 33.6066 16.9373 33.3744 15.8695 32.9166L13.6626 31.9704C12.9866 31.6802 12.2874 31.4721 11.5742 31.3352V8.19672H44.3611V35.2459H25.8725Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="wristband" xmlns="http://www.w3.org/2000/svg" width="6" height="17" viewBox="0 0 6 17"
+                        fill="none">
+                        <path d="M5.7377 17H0V0.606506H5.7377V17Z" fill="#E94E1B"></path>
+                    </svg>
+                    <svg class="line" xmlns="http://www.w3.org/2000/svg" width="8" height="2" viewBox="0 0 8 2"
+                        fill="none">
+                        <path d="M0.886719 0.310547H7.4441V1.94989H0.886719V0.310547Z" fill="#181A16"></path>
+                    </svg>
+                </div>
+                <div class="experience_description">
+                    <h3>Опыт верхолазных работ - 14 лет</h3>
+                    <h6>Работу выполняем качественно и безопасно</h6>
+                </div>
+            </div>
+            <div class="complexity">
+                <div class="complexity_picture">
+                    <svg class="bag" xmlns="http://www.w3.org/2000/svg" width="39" height="38" viewBox="0 0 39 38"
+                        fill="none">
+                        <path
+                            d="M1.6129 2.51604H30.6452V17.0322H32.2581V2.51604H37.0968V17.0322H38.7097V0.903137H0V37.9999H20.9677V36.387H1.6129V2.51604Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="handles" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23"
+                        fill="none">
+                        <path
+                            d="M16.5822 0C15.4354 0 14.3451 0.244355 13.3564 0.678226C12.3676 0.244355 11.2773 0 10.1305 0C5.68377 0 2.06603 3.61774 2.06603 8.06452V17.8903C1.12974 18.2242 0.453125 19.1113 0.453125 20.1613C0.453125 21.4952 1.53861 22.5806 2.87248 22.5806C4.20635 22.5806 5.29183 21.4952 5.29183 20.1613C5.29183 19.1113 4.61522 18.2242 3.67893 17.8903V8.06452C3.67893 4.50726 6.57329 1.6129 10.1305 1.6129C10.6176 1.6129 11.091 1.67177 11.5475 1.775C9.70312 3.25403 8.51764 5.52177 8.51764 8.06452V12.9032H10.1305V8.06452C10.1305 5.68306 11.4314 3.60323 13.3564 2.48548C15.2814 3.60323 16.5822 5.68226 16.5822 8.06452V17.8903C15.6459 18.2242 14.9693 19.1113 14.9693 20.1613C14.9693 21.4952 16.0547 22.5806 17.3886 22.5806C18.7225 22.5806 19.808 21.4952 19.808 20.1613C19.808 19.1113 19.1314 18.2242 18.1951 17.8903V8.06452C18.1951 5.52177 17.0096 3.25403 15.1652 1.775C15.6217 1.67177 16.0951 1.6129 16.5822 1.6129C20.1394 1.6129 23.0338 4.50726 23.0338 8.06452V12.9032H24.6467V8.06452C24.6467 3.61774 21.0289 0 16.5822 0ZM2.87248 20.9677C2.42732 20.9677 2.06603 20.6056 2.06603 20.1613C2.06603 19.7169 2.42732 19.3548 2.87248 19.3548C3.31764 19.3548 3.67893 19.7169 3.67893 20.1613C3.67893 20.6056 3.31764 20.9677 2.87248 20.9677ZM17.3886 20.9677C16.9434 20.9677 16.5822 20.6056 16.5822 20.1613C16.5822 19.7169 16.9434 19.3548 17.3886 19.3548C17.8338 19.3548 18.1951 19.7169 18.1951 20.1613C18.1951 20.6056 17.8338 20.9677 17.3886 20.9677Z"
+                            fill="#E94E1B"></path>
+                    </svg>
+                    <svg class="card" xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 28 20"
+                        fill="none">
+                        <path
+                            d="M25.582 0.645325H3.00139C1.66752 0.645325 0.582031 1.73081 0.582031 3.06468V17.5808C0.582031 18.9147 1.66752 20.0002 3.00139 20.0002H25.582C26.9159 20.0002 28.0014 18.9147 28.0014 17.5808V3.06468C28.0014 1.73081 26.9159 0.645325 25.582 0.645325ZM3.00139 2.25823H25.582C26.0272 2.25823 26.3885 2.61952 26.3885 3.06468V3.87113H2.19493V3.06468C2.19493 2.61952 2.55622 2.25823 3.00139 2.25823ZM26.3885 5.48403V7.09694H2.19493V5.48403H26.3885ZM25.582 18.3873H3.00139C2.55622 18.3873 2.19493 18.026 2.19493 17.5808V8.70984H26.3885V17.5808C26.3885 18.026 26.0272 18.3873 25.582 18.3873Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="pleat" xmlns="http://www.w3.org/2000/svg" width="3" height="14" viewBox="0 0 3 14"
+                        fill="none">
+                        <path d="M2.48396 0.128937H0.871063V13.0322H2.48396V0.128937Z" fill="#181A16"></path>
+                    </svg>
+                    <svg class="infinity" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7"
+                        fill="none">
+                        <path
+                            d="M8.54953 0.321747C7.58098 0.321747 6.72211 0.758843 6.13018 1.43626C5.53824 0.758843 4.67937 0.321747 3.71082 0.321747C1.93179 0.321747 0.485016 1.76852 0.485016 3.54755C0.485016 5.32658 1.93179 6.77335 3.71082 6.77335C4.67937 6.77335 5.53824 6.33626 6.13018 5.65884C6.72211 6.33626 7.58098 6.77335 8.54953 6.77335C10.3286 6.77335 11.7753 5.32658 11.7753 3.54755C11.7753 1.76852 10.3286 0.321747 8.54953 0.321747ZM3.71082 5.16045C2.82131 5.16045 2.09792 4.43707 2.09792 3.54755C2.09792 2.65803 2.82131 1.93465 3.71082 1.93465C4.60034 1.93465 5.32372 2.65803 5.32372 3.54755C5.32372 4.43707 4.60034 5.16045 3.71082 5.16045ZM8.54953 5.16045C7.66001 5.16045 6.93663 4.43707 6.93663 3.54755C6.93663 2.65803 7.66001 1.93465 8.54953 1.93465C9.43905 1.93465 10.1624 2.65803 10.1624 3.54755C10.1624 4.43707 9.43905 5.16045 8.54953 5.16045Z"
+                            fill="#181A16"></path>
+                    </svg>
+                </div>
+                <div class="complexity_description">
+                    <h3>Любой уровень сложности</h3>
+                    <h6>В команде первоклассные специалисты</h6>
+                </div>
+            </div>
+            <div class="deadlines">
+                <div class="deadlines_picture">
+                    <svg class="torso" xmlns="http://www.w3.org/2000/svg" width="37" height="22" viewBox="0 0 37 22"
+                        fill="none">
+                        <path
+                            d="M18.5008 0.226562C8.6441 0.226562 0.625427 8.18537 0.625427 17.9685V22.0008H36.3761V17.9685C36.3761 8.18537 28.3575 0.226562 18.5008 0.226562ZM25.6948 3.52812C23.3824 8.49105 20.0015 15.6732 18.5455 18.6056L11.3108 3.52575C13.4819 2.45645 15.917 1.83949 18.5008 1.83949C21.0861 1.83932 23.5229 2.45713 25.6948 3.52812ZM26.9095 4.76526L28.9482 13.5329L20.4964 18.3265C21.6021 16.0998 23.5067 12.07 26.9095 4.76526ZM16.6522 18.4103L8.05321 13.5337L10.0967 4.74663L16.6522 18.4103ZM2.25049 17.9685C2.25049 12.9241 4.59868 8.41772 8.26309 5.45809L6.19848 14.3387L16.8636 20.3879H2.25049V17.9685ZM34.7511 20.3877H20.138L30.8037 14.3385L28.7383 5.45792C32.4027 8.41755 34.7509 12.9241 34.7509 17.9683V20.3877H34.7511Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="talking_head" xmlns="http://www.w3.org/2000/svg" width="29" height="27"
+                        viewBox="0 0 29 27" fill="none">
+                        <path
+                            d="M23.6282 21.3856H25.6839C27.0277 21.3856 28.1215 20.3 28.1215 18.9662V16.5468H26.4964V18.9662C26.4964 19.4105 26.1325 19.7726 25.6839 19.7726H24.7372C25.8487 17.8718 26.4964 15.6726 26.4964 13.3211C26.4964 6.2065 20.6642 0.417969 13.4963 0.417969C6.32834 0.417969 0.496094 6.20667 0.496094 13.3211C0.496094 20.4355 6.32834 26.2242 13.4963 26.2242C17.5903 26.2243 21.2435 24.3315 23.6282 21.3856ZM2.12082 13.3211C2.12082 7.09527 7.22345 2.03073 13.4961 2.03073C19.7687 2.03073 24.8714 7.09527 24.8714 13.3211C24.8714 15.7195 24.1085 17.9421 22.8182 19.7726H17.4093C17.073 18.8363 16.179 18.1597 15.1211 18.1597H11.871C10.5272 18.1597 9.43343 19.2453 9.43343 20.5791C9.43343 21.9129 10.5272 22.9985 11.871 22.9985H15.1211C16.179 22.9985 17.0728 22.3219 17.4093 21.3856H21.4426C19.3901 23.3775 16.587 24.6114 13.4969 24.6114C7.22345 24.6114 2.12082 19.5469 2.12082 13.3211ZM15.9337 20.5791C15.9337 21.0235 15.5697 21.3856 15.1211 21.3856H11.871C11.4224 21.3856 11.0585 21.0235 11.0585 20.5791C11.0585 20.1347 11.4224 19.7726 11.871 19.7726H15.1211C15.5696 19.7726 15.9337 20.1349 15.9337 20.5791Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="arc" xmlns="http://www.w3.org/2000/svg" width="31" height="11" viewBox="0 0 31 11"
+                        fill="none">
+                        <path
+                            d="M15.4978 1.61293C21.3698 1.61293 26.6122 5.30723 28.5435 10.8057L30.0783 10.2751C27.9187 4.12903 22.0597 0 15.4978 0C8.93681 0 3.07778 4.12903 0.917969 10.2742L2.45277 10.8057C4.38428 5.30723 9.62666 1.61293 15.4978 1.61293Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="l_earpiece" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12"
+                        fill="none">
+                        <path
+                            d="M6.50008 11.967H5.68755C2.55209 11.967 0 9.43399 0 6.32194C0 3.20988 2.55209 0.676849 5.68755 0.676849H6.50008V11.967Z"
+                            fill="#E94E1B"></path>
+                    </svg>
+                    <svg class="r_earpiece" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12"
+                        fill="none">
+                        <path
+                            d="M1.31296 11.9681H0.500427V0.677734H1.31296C4.44842 0.677734 7.00051 3.21077 7.00051 6.32282C7.00051 9.43488 4.44859 11.9681 1.31296 11.9681Z"
+                            fill="#E94E1B"></path>
+                    </svg>
+                </div>
+                <div class="deadlines_description">
+                    <h3>Соблюдение сроков</h3>
+                    <h6>Работаем быстро за счет оптимизации рабочих процессов</h6>
+                </div>
+            </div>
+            <div class="professionals">
+                <div class="professionals_picture">
+                    <svg class="certificate" xmlns="http://www.w3.org/2000/svg" width="26" height="20"
+                        viewBox="0 0 26 20" fill="none">
+                        <path
+                            d="M23.1562 0.46875H2.84375C1.55156 0.46875 0.5 1.52031 0.5 2.8125V16.875C0.5 18.1672 1.55156 19.2188 2.84375 19.2188H23.1562C24.4484 19.2188 25.5 18.1672 25.5 16.875V2.8125C25.5 1.52031 24.4484 0.46875 23.1562 0.46875ZM23.1562 17.6562H2.84375C2.4125 17.6562 2.0625 17.3062 2.0625 16.875V6.71875H9.875V5.15625H2.0625V2.8125C2.0625 2.38125 2.4125 2.03125 2.84375 2.03125H23.1562C23.5875 2.03125 23.9375 2.38125 23.9375 2.8125V5.15625H16.125V6.71875H23.9375V16.875C23.9375 17.3062 23.5875 17.6562 23.1562 17.6562Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="points" xmlns="http://www.w3.org/2000/svg" width="9" height="3" viewBox="0 0 9 3"
+                        fill="none">
+                        <path
+                            d="M8.375 2.09375H6.8125V0.53125H8.375V2.09375ZM5.25 2.09375H3.6875V0.53125H5.25V2.09375ZM2.125 2.09375H0.5625V0.53125H2.125V2.09375Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="emblem" xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
+                        fill="none">
+                        <path d="M7.125 8.84375H0.875V0.25H7.125V8.84375Z" fill="#E94E1B"></path>
+                    </svg>
+                    <svg class="arrow_top" xmlns="http://www.w3.org/2000/svg" width="13" height="29" viewBox="0 0 13 29"
+                        fill="none">
+                        <path
+                            d="M8.63828 28.9953L8.09531 28.5789C4.65469 25.9406 2.34297 20.0313 2.34297 13.8734C2.34297 10.8227 2.94531 7.85781 4.13594 5.05234L0.625 1.54062L11.0273 0.5L9.9875 10.9031L7.79219 8.70781C7.28594 10.3883 7.03047 12.1195 7.03047 13.8734C7.03047 19.0992 9.225 23.4047 11.3914 24.957L12.1406 25.4938L8.63828 28.9953ZM4.06094 2.76797L6 4.70703L5.77734 5.19922C4.53594 7.94688 3.90547 10.8648 3.90547 13.8734C3.90547 19.1531 5.77891 24.3711 8.52422 26.9L9.775 25.6492C7.20625 23.2797 5.46797 18.6094 5.46797 13.8734C5.46797 11.5219 5.89062 9.20703 6.725 6.99219L7.15156 5.85859L8.76094 7.46719L9.28359 2.24531L4.06094 2.76797Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="arrow_bottom" xmlns="http://www.w3.org/2000/svg" width="13" height="30"
+                        viewBox="0 0 13 30" fill="none">
+                        <path
+                            d="M1.97168 29.2469L3.01152 18.8445L5.20684 21.0398C5.71309 19.3609 5.96855 17.6289 5.96855 15.875C5.96855 10.6484 3.77402 6.34295 1.60762 4.79138L0.858398 4.25466L4.36074 0.752319L4.90371 1.16951C8.34434 3.80779 10.6561 9.71716 10.6561 15.875C10.6561 18.9258 10.0537 21.8906 8.86309 24.6953L12.374 28.207L1.97168 29.2469ZM4.23809 22.2804L3.71543 27.5031L8.93808 26.9804L6.99902 25.0414L7.22168 24.5492C8.46309 21.8015 9.09355 18.8836 9.09355 15.875C9.09355 10.5953 7.22012 5.37732 4.47481 2.84919L3.22402 4.0992C5.79277 6.46795 7.53105 11.1383 7.53105 15.875C7.53105 18.2265 7.1084 20.5422 6.27402 22.7562L5.84746 23.8898L4.23809 22.2804Z"
+                            fill="#181A16"></path>
+                    </svg>
+                    <svg class="round" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+                        fill="none">
+                        <path
+                            d="M6 11.4062C2.98516 11.4062 0.53125 8.95312 0.53125 5.9375C0.53125 2.92188 2.98516 0.46875 6 0.46875C9.01484 0.46875 11.4688 2.92188 11.4688 5.9375C11.4688 8.95312 9.01484 11.4062 6 11.4062ZM6 2.03125C3.84609 2.03125 2.09375 3.78359 2.09375 5.9375C2.09375 8.09141 3.84609 9.84375 6 9.84375C8.15391 9.84375 9.90625 8.09141 9.90625 5.9375C9.90625 3.78359 8.15391 2.03125 6 2.03125Z"
+                            fill="#181A16"></path>
+                    </svg>
+                </div>
+                <div class="professionals_description">
+                    <h3>Профессиональная команда</h3>
+                    <h6>Все специалисты - опытные высотники с многолетним стажем</h6>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section class="services">
+            <div class="services_description">
+                <h2>Услуги которые мы предоставляем</h2>
+                <a class="services_button" href="#">
+                    Посмотреть все услуги
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="12" viewBox="0 0 21 12" fill="none">
+                        <path
+                            d="M20.5303 6.53033C20.8232 6.23744 20.8232 5.76256 20.5303 5.46967L15.7574 0.696699C15.4645 0.403806 14.9896 0.403806 14.6967 0.696699C14.4038 0.989593 14.4038 1.46447 14.6967 1.75736L18.9393 6L14.6967 10.2426C14.4038 10.5355 14.4038 11.0104 14.6967 11.3033C14.9896 11.5962 15.4645 11.5962 15.7574 11.3033L20.5303 6.53033ZM0 6.75H20V5.25H0V6.75Z"
+                            fill="#E94E1B"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="wrapper_services">
+                <div class="content_services">
+                    <div class="item_big repair">
+                        <h2 class="repair_title">Ремонт межпанельных швов</h2>
+                        <h5 class="repair_subtitle">Оказываем услуги лизинга на приобретение грузового
+                            транспорта и автомобилей
+                            представительского
+                            класса.</h5>
+                        <p class="price_1">от 450 рублей</p>
+                        <a class="button_1" href="#">Подробнее
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="12" viewBox="0 0 21 12"
+                                fill="none">
+                                <path
+                                    d="M20.5303 6.53033C20.8232 6.23744 20.8232 5.76256 20.5303 5.46967L15.7574 0.696699C15.4645 0.403806 14.9896 0.403806 14.6967 0.696699C14.4038 0.989593 14.4038 1.46447 14.6967 1.75736L18.9393 6L14.6967 10.2426C14.4038 10.5355 14.4038 11.0104 14.6967 11.3033C14.9896 11.5962 15.4645 11.5962 15.7574 11.3033L20.5303 6.53033ZM0 6.75H20V5.25H0V6.75Z"
+                                    fill="#E94E1B"></path>
+                            </svg>
+                        </a>
+                        <div class="relative">
+                            <img src="img/prliz_home_slider__slide--3__image_11.svg" alt="services">
+                        </div>
+                    </div>
+                    <div class="item insulation">
+                        <h2 class="insulation_title">Утепление стен снаружи</h2>
+                        <h5 class="insulation_subtitle">Автоматизируем производство, торговлю и транспортную логистику.
+                        </h5>
+                        <p class="price_2">от 520 рублей</p>
+                        <div class="relative">
+                            <img src="img/unnamed(3)1.svg" alt="services">
+                        </div>
+                    </div>
+                    <div class="item sealing">
+                        <h2 class="sealing_title">Гермитизация окон и балконов</h2>
+                        <h5 class="sealing_subtitle">Готовы проводить консультации в удобном для вас месте: у нас в
+                            офисе, ресторане, вашем офисе
+                            или
+                            по скайпу.</h5>
+                        <p class="price_3">от 1080 рублей</p>
+                        <div class="relative">
+                            <img src="img/Professional-on-phone-video-call-removebg-preview1.svg" alt="services">
+                        </div>
+                    </div>
+                    <div class="item washing">
+                        <h2 class="washing_title">Мойка фасадов сданий</h2>
+                        <h5 class="washing_subtitle">Проводим полный комплекс бухгалтерских услуг для только открывшихся
+                            фирм.</h5>
+                        <p class="price_4">от 40 рублей</p>
+                        <div class="relative">
+                            <img src="img/6d686941993080f21c975412dc88c32d1.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="item_big cleaning">
+                        <h2 class="cleaning_title">Уборка снега с крыш</h2>
+                        <h5 class="cleaning_subtitle">Защищаем цифровую информацию — проектируем топологию сети с
+                            безопасным протоколом передачи
+                            данных и устанавливаем программы для их защиты.</h5>
+                        <p class="price_3">от 40 рублей</p>
+                        <a class="button_2" href="#">Подробнее
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="12" viewBox="0 0 21 12"
+                                fill="none">
+                                <path
+                                    d="M20.5303 6.53033C20.8232 6.23744 20.8232 5.76256 20.5303 5.46967L15.7574 0.696699C15.4645 0.403806 14.9896 0.403806 14.6967 0.696699C14.4038 0.989593 14.4038 1.46447 14.6967 1.75736L18.9393 6L14.6967 10.2426C14.4038 10.5355 14.4038 11.0104 14.6967 11.3033C14.9896 11.5962 15.4645 11.5962 15.7574 11.3033L20.5303 6.53033ZM0 6.75H20V5.25H0V6.75Z"
+                                    fill="#E94E1B"></path>
+                            </svg>
+                        </a>
+                        <div class="relative">
+                            <img src="img/i000273921.svg" alt="services">
+                        </div>
+                    </div>
+                    <div class="item works">
+                        <h2 class="works_title">Фасадные работы</h2>
+                        <h5 class="works_subtitle">ETF — простой способ вложиться в иностранные ценные бумаги с
+                            минимальными затратами. </h5>
+                        <p class="price_3">от 65 рублей</p>
+                        <a class="button_3" href="#">Подробнее
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="12" viewBox="0 0 21 12"
+                                fill="none">
+                                <path
+                                    d="M20.5303 6.53033C20.8232 6.23744 20.8232 5.76256 20.5303 5.46967L15.7574 0.696699C15.4645 0.403806 14.9896 0.403806 14.6967 0.696699C14.4038 0.989593 14.4038 1.46447 14.6967 1.75736L18.9393 6L14.6967 10.2426C14.4038 10.5355 14.4038 11.0104 14.6967 11.3033C14.9896 11.5962 15.4645 11.5962 15.7574 11.3033L20.5303 6.53033ZM0 6.75H20V5.25H0V6.75Z"
+                                    fill="#E94E1B"></path>
+                            </svg>
+                        </a>
+                        <div class="relative">
+                            <img src="img/kisspng-shutterstock-businessperson-management-business-ne-orange-blossom-business-center-–-fort-pierce-bus-5b633e26d796511.svg"
+                                alt="services">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Калькулятор -->
+    <section class="calculator">
+        <div class="wrapper">
+            <h2 class="calculator_title">Рассчитать стоимость работ</h2>
+            <div class="calculator_form">
+                <form action="#" method="post">
+                    <p class="select">
+                        <label for="select">Услуга</label>
+                        <select id="select">
+                            <option selected>Выбрать услугу</option>
+                            <option value="">Пункт 1</option>
+                            <option value="">Пункт 2</option>
+                            <option value="">Пункт 3</option>
+                        </select>
+                    </p>
+                    <p class="phone">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" pattern="+[0-9]{1}\s[0-9]{3}\s[0-9]{7}" required
+                            placeholder="+7 ___ _______">
+                    </p>
+                    <p class="calculator_submit">
+                        <input id="calculator_submit" type="submit" value="Отправить">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="wrapper">
+
+        <!-- О компании -->
+        <section class="company">
+            <div class="company_img">
+                <img src="img/img1.svg" alt="company">
+            </div>
+            <div class="company_text">
+                <h2>О компании</h2>
+                <h6>Компания, анализирующая потребности и бизнес-процессы организаций. Работаем с 2003 года, занимаемся
+                    автоматизацией бизнеса, управлением активами и инвестиций, финансовым аудитом и оказываем услуги
+                    лизинга
+                    и юридической практики.</h6>
+                <p>Компания, анализирующая потребности и бизнес-процессы организаций. Работаем с 2003 года, занимаемся
+                    автоматизацией бизнеса, управлением активами и инвестиций, финансовым аудитом и оказываем услуги
+                    лизингаи юридической практики.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Стоимость услуг -->
+    <section class="price_services">
+        <div class="wrapper">
+            <h2>Прайс на услуги</h2>
+            <div class="price_works">
+                <div class="price_service">
+                    <div class="left">
+                        <h6>Подъем груз на высоту</h6>
+                    </div>
+                    <div class="right">
+                        <p>от 30 000 рублей</p>
+                        <div>
+                            <a href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="price_service">
+                    <div class="left">
+                        <h6>Подъем материала на этаж</h6>
+                    </div>
+                    <div class="right">
+                        <p>от 30 000 рублей</p>
+                        <div>
+                            <a href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="price_service">
+                    <div class="left">
+                        <h6>Фасадное остекление</h6>
+                    </div>
+                    <div class="right">
+                        <p>от 3500 м2 рублей</p>
+                        <div>
+                            <a href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="price_service">
+                    <div class="left">
+                        <h6>Витражное остекление</h6>
+                    </div>
+                    <div class="right">
+                        <p>от 4500 м2 рублей</p>
+                        <div>
+                            <a href="#">Заказать услугу</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <a class="services_button price_button" href="#">
+                Открыть прайс
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="12" viewBox="0 0 21 12" fill="none">
+                    <path
+                        d="M20.5303 6.53033C20.8232 6.23744 20.8232 5.76256 20.5303 5.46967L15.7574 0.696699C15.4645 0.403806 14.9896 0.403806 14.6967 0.696699C14.4038 0.989593 14.4038 1.46447 14.6967 1.75736L18.9393 6L14.6967 10.2426C14.4038 10.5355 14.4038 11.0104 14.6967 11.3033C14.9896 11.5962 15.4645 11.5962 15.7574 11.3033L20.5303 6.53033ZM0 6.75H20V5.25H0V6.75Z"
+                        fill="#E94E1B"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
+    <div class="wrapper">
+
+        <!-- Партнеры -->
+        <section class="partners">
+            <h2>Наши партнеры</h2>
+            <div class="partners_logos">
+                <div class="item_partners">
+                    <img src="img/client-1.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-2.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-3.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-4.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-5.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-6.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-1.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-2.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-3.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-4.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-5.png" alt="partners_logos">
+                </div>
+                <div class="item_partners">
+                    <img src="img/client-6.png" alt="partners_logos">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Отзывы -->
+        <section class="reviews">
+            <div class="reviews_title">
+                <div class="reviews_h2">
+                    <h2>Отзывы о нас</h2>
+                </div>
+                <div class="reviews_button">
+                    <a class="services_button reviews_but">
+                        Все отзывы
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="12" viewBox="0 0 21 12" fill="none">
+                            <path
+                                d="M20.5303 6.53033C20.8232 6.23744 20.8232 5.76256 20.5303 5.46967L15.7574 0.696699C15.4645 0.403806 14.9896 0.403806 14.6967 0.696699C14.4038 0.989593 14.4038 1.46447 14.6967 1.75736L18.9393 6L14.6967 10.2426C14.4038 10.5355 14.4038 11.0104 14.6967 11.3033C14.9896 11.5962 15.4645 11.5962 15.7574 11.3033L20.5303 6.53033ZM0 6.75H20V5.25H0V6.75Z"
+                                fill="#E94E1B"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="reviews_slider">
+                <button class="review_button_prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="19" viewBox="0 0 12 19" fill="none">
+                        <path d="M10.334 18L2.33398 9.66667L10.334 1.33333" stroke-width="2"></path>
+                    </svg>
+                </button>
+                <div class="reviews_slider_wrapper">
+                    <div class="slider_review_line">
+                        <div class="dot_review">
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 1</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 2</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                        </div>
+                        <div class="dot_review">
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 3</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 4</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                        </div>
+                        <div class="dot_review">
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 5</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 6</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                        </div>
+                        <div class="dot_review">
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 7</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 8</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                        </div>
+                        <div class="dot_review">
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 9</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                            <div class="slider_review">
+                                <h3>Анастасия Соколова 10</h3>
+                                <p>Оказываем услуги лизинга на приобретение грузового транспортаи автомобилей
+                                    представительского
+                                    класса. Приобретем в собственность транспорт и передадим его вам в пользование на
+                                    длительный
+                                    срок.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="review_button_next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="19" viewBox="0 0 12 19" fill="none">
+                        <path d="M1.66602 18L9.66602 9.66667L1.66601 1.33333" stroke-width="2"></path>
+                    </svg>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Консультация -->
+    <section class="consultation">
+        <div class="wrapper">
+            <h2>Проконсультироваться с специалистом</h2>
+            <div class="consultation_form">
+                <form action="#" method="post">
+                    <p class="name">
+                        <label for="name">Имя <b>*</b></label>
+                        <input type="text" id="name" name="name" required placeholder="ВВаше имя">
+                    </p>
+                    <p class="consultation_phone">
+                        <label for="consultation_phone">Телефон <b>*</b></label>
+                        <input type="tel" id="consultation_phone" name="consultation_phone"
+                            pattern="+[0-9]{1}\s[0-9]{3}\s[0-9]{7}" required placeholder="+7 ___ _______">
+                    </p>
+                    <p class="consultation_submit">
+                        <input id="consultation_submit" type="submit" value="Отправить">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contacts">
+        <div class="info">
+            <h2>Контакты</h2>
+            <h4>Обязательно приходите к нам на чашку ароматного кофе. Совместно обсудим ваши задачи для бизнеса и
+                предложим
+                решение для его развития!</h4>
+            <div class="coordinates">
+                <h5>Адрес:</h5>
+                <p>г. Москва, ул. Неизвестная, д. 1</p>
+            </div>
+            <div class="telephone">
+                <h5>Телефон:</h5>
+                <a href="tel:#">
+                    <p>+7(3532) 22-62-62;</p>
+                </a>
+                <a href="tel:#">
+                    <p>+7(922)965-85-96</p>
+                </a>
+            </div>
+            <div class="email">
+                <h5>Почта:</h5>
+                <a href="mailto:#">
+                    <p>primer@mail.ru</p>
+                </a>
+            </div>
+        </div>
+        <div class="map">
+            <img src="img/image74.png" alt="map">
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer_div">
+            <div class="footer_up">
+                <div class="footer_logo">
+                    <a href="#">
+                        <img src="img/footer-logo.svg" alt="footer_logo">
+                    </a>
+                </div>
+                <div class="hamb_footer">
+                    <div class="hamb_box_footer">
+                        <p>Меню</p>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <ul class="menu footer_menu">
+                    <li class="menu_item footer_menu_item"><a href="#">О нас</a></li>
+                    <li class="menu_item footer_menu_item"><a href="#">Преимущества</a></li>
+                    <li class="menu_item footer_menu_item"><a href="#">Услуги</a></li>
+                    <li class="menu_item footer_menu_item"><a href="#">Акции</a></li>
+                    <li class="menu_item footer_menu_item"><a href="#">Контакты</a></li>
+                </ul>
+                <div class="popup_footer"></div>
+                <div class="tel">
+                    <a href="tel:#">
+                        <p class="tel_after">+7 (3532) 27-63-27</p>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_down">
+                <div class="footer_rights">
+                    <p>2020 © Все права защищены</p>
+                </div>
+                <div class="footer_social">
+                    <ul class="social_menu">
+                        <li class="social_item">
+                            <a href="#">
+                                <img src="img/vk.svg" alt="vk">
+                            </a>
+                        </li>
+                        <li class="social_item">
+                            <a href="#">
+                                <img src="img/whatsapp.svg" alt="whatsapp">
+                            </a>
+                        </li>
+                        <li class="social_item">
+                            <a href="#">
+                                <img src="img/telegram.svg" alt="telegram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
